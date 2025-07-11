@@ -41,5 +41,10 @@ Demo Link: https://contractgenie-f3ctimhwaedlr8yca96u9r.streamlit.app/
 ---
 
 ## 🏗️ Project Structure
+ContractGenie/
+├── app.py # Streamlit app entry point
+├── requirements.txt # Python dependencies
+└── .streamlit/
+└── secrets.toml # [Not pushed] Holds the GROQ_API_KEY (in deployment)
 
 

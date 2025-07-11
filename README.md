@@ -39,5 +39,4 @@ Demo Link: https://contractgenie-f3ctimhwaedlr8yca96u9r.streamlit.app/
 - **Secrets Manager** – for securely handling API keys
 
 ---
-assests/clause explainer.jpg
 

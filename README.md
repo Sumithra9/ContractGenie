@@ -40,5 +40,14 @@ Demo Link: https://contractgenie-f3ctimhwaedlr8yca96u9r.streamlit.app/
 
 ---
 
+## 🖼️ Screenshots
 
+### 🏠 Draft NDA
+![Home Page](assets/draft nda.jpg)(assets/draft nda result.jpg)
+
+### 📄 Contract Summarizer
+![Summarizer](assets/contract summarizer.jpg)(assets/contract summarizer result.jpg)
+
+### 🔍 Clause Explanation
+![Explain Clause](assets/clause explainer.jpg)
 

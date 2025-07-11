@@ -1,7 +1,5 @@
-Demo Link: https://contractgenie-f3ctimhwaedlr8yca96u9r.streamlit.app/
 # 📄 ContractGenie – AI-Powered Contract Assistant
 
-**ContractGenie** is an intelligent legal document assistant powered by LLMs. It helps users generate NDAs, summarize complex contracts, and explain specific legal clauses in simple terms using AI — all through a clean Streamlit interface.
 
 ---
 

@@ -37,4 +37,34 @@
 - **Secrets Manager** – for securely handling API keys
 
 ---
+## Installation
 
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/multi-pdf-chat.git
+cd multi-pdf-chat
+```
+2.**Create and activate a virtual environment**
+On Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+On macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3.**Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+4.**Set your Groq API key**
+```bash
+GROQ_API_KEY="your-groq-api-key-here"
+```
+5. **Run Streamlit App**
+```bash
+streamlit run app.py
+```

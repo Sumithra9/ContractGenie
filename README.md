@@ -1,25 +1,25 @@
-# 📄 ContractGenie – AI-Powered Contract Assistant
+# ContractGenie – AI-Powered Contract Assistant
 
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 **Generate NDAs Instantly**  
+- **Generate NDAs Instantly**  
   Automatically draft basic Non-Disclosure Agreements from simple text prompts using a Groq-powered LLM backend.
 
-- 📂 **Upload & Summarize Contracts (PDF)**  
+- **Upload & Summarize Contracts (PDF)**  
   Upload any contract in PDF format and get a concise summary highlighting its key points and obligations.
 
-- 🔍 **Clause Explanation**  
+- **Clause Explanation**  
   Copy and paste any legal clause from a document, and the app will explain it in layman's terms for easy understanding.
 
-- 📱 **Clean & Minimal UI with Streamlit**  
+- **Clean & Minimal UI with Streamlit**  
   The app provides an intuitive interface with tabs for NDA drafting, contract summarization, and clause explanations.
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 - Startups and freelancers generating NDAs on the fly  
 - Students or early professionals understanding legal documents  
@@ -28,10 +28,10 @@
 
 ---
 
-## 🔐 Built With
+## Built With
 
 - **Streamlit** – for building the interactive web UI  
-- **Groq API (Mixtral-8x7B)** – for ultra-fast and cost-effective LLM responses  
+- **Groq API (Mixtral-8x7B)** – for fast and cost-effective LLM responses  
 - **pdfplumber** – for extracting contract text from PDF files  
 - **Python** – backend logic and data flow  
 - **Secrets Manager** – for securely handling API keys

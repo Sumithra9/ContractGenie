@@ -1,49 +1,57 @@
-# ContractGenie – AI-Powered Contract Assistant
+# 🤖 ContractGenie – AI-Powered Legal Assistant
 
-ContractGenie is an intelligent legal document assistant powered by LLMs. It helps users generate NDAs, summarize complex contracts, and explain specific legal clauses in simple terms using AI — all through a clean Streamlit interface.
-
-
-## Features
-
-- **Generate NDAs Instantly**  
-  Automatically draft basic Non-Disclosure Agreements from simple text prompts using a Groq-powered LLM backend.
-
-- **Upload & Summarize Contracts (PDF)**  
-  Upload any contract in PDF format and get a concise summary highlighting its key points and obligations.
-
-- **Clause Explanation**  
-  Copy and paste any legal clause from a document, and the app will explain it in layman's terms for easy understanding.
-
-- **Clean & Minimal UI with Streamlit**  
-  The app provides an intuitive interface with tabs for NDA drafting, contract summarization, and clause explanations.
+**ContractGenie** is a GenAI-powered legal assistant that helps users quickly draft NDAs, summarize contracts, explain legal clauses, and ask context-aware questions about uploaded agreements — all in one clean Streamlit app.
 
 ---
 
-## Use Cases
+## 🚀 Features
 
-- Startups and freelancers generating NDAs on the fly  
-- Students or early professionals understanding legal documents  
-- Product managers summarizing partner agreements  
-- Anyone needing legal assistance without legal jargon
+### 📝 Generate NDAs Instantly
+Automatically draft simple Non-Disclosure Agreements from natural language inputs like discloser name, receiver, purpose, and duration — powered by Groq's blazing-fast LLaMA 3.
+
+### 📄 Upload & Summarize Contracts (PDF)
+Upload any legal contract in PDF format and get a clear, concise bullet-point summary of the document’s key obligations and provisions.
+
+### 📘 Clause Explanation
+Paste any complex legal clause and the app will explain it in plain, human-readable terms — perfect for non-lawyers or fast interpretation.
+
+### 🤖 Ask Questions about Contracts (RAG QnA)
+Use Retrieval-Augmented Generation (RAG) to ask questions about the uploaded PDF:
+- Automatically extracts and embeds document chunks
+- Retrieves relevant sections using semantic search (MiniLM + FAISS)
+- Generates grounded answers using Groq LLaMA 3
+
+💬 **Examples**:
+- "What are the termination conditions?"
+- "Is there a confidentiality clause?"
+- "When does the agreement expire?"
+
+### 🎯 Clean & Minimal UI with Streamlit
+Tabbed interface with intuitive sidebar navigation for each functionality. Built entirely in Python using modular design principles.
 
 ---
 
-## Built With
+## ⚙️ Tech Stack
 
-- **Streamlit** – for building the interactive web UI  
-- **Groq API (Mixtral-8x7B)** – for fast and cost-effective LLM responses  
-- **pdfplumber** – for extracting contract text from PDF files  
-- **Python** – backend logic and data flow  
-- **Secrets Manager** – for securely handling API keys
+- **Frontend/UI**: Streamlit
+- **LLM Backend**: Groq API + LLaMA 3
+- **RAG Components**: LangChain, FAISS, HuggingFace Embeddings
+- **PDF Parsing**: pdfplumber
+- **Deployment**: Streamlit Cloud
 
 ---
-## Installation
+
+## 📦 Installation
+
+
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/multi-pdf-chat.git
-cd multi-pdf-chat
+git clone https://github.com/yourusername/contractgenie.git
+cd contractgenie
+pip install -r requirements.txt
+
 ```
 2.**Create and activate a virtual environment**
 On Windows:

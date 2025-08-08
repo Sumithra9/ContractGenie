@@ -49,7 +49,7 @@ Tabbed interface with intuitive sidebar navigation for each functionality. Built
 
 ```bash
 git clone https://github.com/Sumithra9/ContractGenie.git
-cd contractgenie
+cd ContractGenie
 pip install -r requirements.txt
 
 ```

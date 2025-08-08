@@ -48,7 +48,7 @@ Tabbed interface with intuitive sidebar navigation for each functionality. Built
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/contractgenie.git
+git clone https://github.com/Sumithra9/ContractGenie.git
 cd contractgenie
 pip install -r requirements.txt
 
